@@ -1,0 +1,15 @@
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.deps.json
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.dll
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.pdb
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\bin\Debug\net6.0\Techsoft.Consultorio.Dominio.dll
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\bin\Debug\net6.0\Techsoft.Consultorio.Dominio.pdb
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.csproj.AssemblyReference.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.GeneratedMSBuildEditorConfig.editorconfig
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.AssemblyInfoInputs.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.AssemblyInfo.cs
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.csproj.CoreCompileInputs.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.csproj.CopyComplete
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.dll
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\refint\Techsoft.Consultorio.Infraestructura.TextFile.dll
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.pdb
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura.TextFile\obj\Debug\net6.0\ref\Techsoft.Consultorio.Infraestructura.TextFile.dll

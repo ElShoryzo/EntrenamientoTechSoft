@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Techsoft.Consultorio.Infraestructura.TextFile/1.0.0": {
+        "dependencies": {
+          "Techsoft.Consultorio.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Techsoft.Consultorio.Infraestructura.TextFile.dll": {}
+        }
+      },
+      "Techsoft.Consultorio.Dominio/1.0.0": {
+        "runtime": {
+          "Techsoft.Consultorio.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Techsoft.Consultorio.Infraestructura.TextFile/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Techsoft.Consultorio.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

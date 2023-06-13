@@ -1,0 +1,17 @@
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\bin\Debug\net6.0\LoggerService.deps.json
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\bin\Debug\net6.0\LoggerService.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\bin\Debug\net6.0\LoggerService.pdb
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\bin\Debug\net6.0\Contracts.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\bin\Debug\net6.0\Contracts.pdb
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\LoggerService.csproj.AssemblyReference.cache
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfoInputs.cache
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfo.cs
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CoreCompileInputs.cache
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CopyComplete
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\LoggerService.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\LoggerService.pdb
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\bin\Debug\net6.0\Entities.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\LoggerService\bin\Debug\net6.0\Entities.pdb

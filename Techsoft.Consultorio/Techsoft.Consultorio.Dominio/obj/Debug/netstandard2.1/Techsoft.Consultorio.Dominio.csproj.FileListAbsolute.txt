@@ -1,0 +1,10 @@
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\bin\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.deps.json
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\bin\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.dll
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\bin\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.pdb
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\obj\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.csproj.AssemblyReference.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\obj\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\obj\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.AssemblyInfoInputs.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\obj\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.AssemblyInfo.cs
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\obj\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.csproj.CoreCompileInputs.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\obj\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.dll
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Dominio\obj\Debug\netstandard2.1\Techsoft.Consultorio.Dominio.pdb

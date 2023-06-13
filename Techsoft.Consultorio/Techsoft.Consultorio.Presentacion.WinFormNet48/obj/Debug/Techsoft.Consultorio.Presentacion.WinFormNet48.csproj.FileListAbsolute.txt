@@ -1,0 +1,10 @@
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\bin\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.exe.config
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\bin\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.exe
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\bin\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.pdb
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\obj\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.csproj.AssemblyReference.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\obj\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.csproj.SuggestedBindingRedirects.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\obj\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.Properties.Resources.resources
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\obj\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.csproj.GenerateResource.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\obj\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.csproj.CoreCompileInputs.cache
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\obj\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.exe
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.WinFormNet48\obj\Debug\Techsoft.Consultorio.Presentacion.WinFormNet48.pdb

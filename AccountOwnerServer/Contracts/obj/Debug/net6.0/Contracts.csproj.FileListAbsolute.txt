@@ -1,0 +1,15 @@
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\bin\Debug\net6.0\Contracts.deps.json
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\bin\Debug\net6.0\Contracts.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\bin\Debug\net6.0\Contracts.pdb
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfoInputs.cache
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfo.cs
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\Contracts.csproj.CoreCompileInputs.cache
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\Contracts.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\refint\Contracts.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\Contracts.pdb
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\ref\Contracts.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\bin\Debug\net6.0\Entities.dll
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\bin\Debug\net6.0\Entities.pdb
+D:\Entrenamiento TechSoft\AccountOwnerServer\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete

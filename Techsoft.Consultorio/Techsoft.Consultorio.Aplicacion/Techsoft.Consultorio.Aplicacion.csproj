@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Servicios\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Techsoft.Consultorio.Dominio\Techsoft.Consultorio.Dominio.csproj" />
+    <ProjectReference Include="..\Techsoft.Consultorio.Infraestructura\Techsoft.Consultorio.Infraestructura.csproj" />
+  </ItemGroup>
+
+</Project>
