@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Techsoft.Consultorio.Aplicacion.DataTransferObjects;
 using Techsoft.Consultorio.Dominio.Contratos;
 using Techsoft.Consultorio.Dominio.Entidades;
 using Techsoft.Consultorio.Infraestructura.Fabricas;
@@ -31,7 +32,7 @@ namespace Techsoft.Consultorio.Aplicacion.Servicios
 
             if (result is not null)
             {
-                throw new InvalidCastException("El paciente ya existe");
+                throw new InvalidOperationException("El paciente ya existe");
             }
 
         }

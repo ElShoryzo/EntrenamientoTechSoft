@@ -12,7 +12,7 @@ namespace Techsoft.Consultorio.Infraestructura.Repositorios
     {
         public Doctor? ConsultarCedula(string cedula)
         {
-            
+            // TODO: VALIDAR ARCHIVO EXISTE
             using (var reader = new StreamReader(@"D:\Entrenamiento TechSoft\Techsoft.Consultorio\Datos\datos.txt", true))
             {
                 string line;
@@ -22,6 +22,7 @@ namespace Techsoft.Consultorio.Infraestructura.Repositorios
                     string buscarCedula = parts[3].Trim();
                     if (buscarCedula == cedula)
                     {
+                        reader.Close();
                         return RegistroTxtADoctor(parts);
                     }
                 }

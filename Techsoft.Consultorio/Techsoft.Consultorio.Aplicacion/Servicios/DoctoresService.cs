@@ -34,7 +34,7 @@ namespace Techsoft.Consultorio.Aplicacion.Servicios
 
             if (result is not null)
             {
-                throw new InvalidCastException("El doctor ya existe");
+                throw new InvalidOperationException("El doctor ya existe");
             }
 
         }

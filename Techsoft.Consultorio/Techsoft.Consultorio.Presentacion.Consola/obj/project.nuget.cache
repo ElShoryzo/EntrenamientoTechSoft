@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bBBd/7GE/umwdDP0LrWlv/KBvrnlL4aLV/s1CbQPLSlTSfxRNHI1D7vdSn+6hQ5r4FS4cvJ7UDutZnizGCfQFw==",
+  "dgSpecHash": "Nk4yhFgDtV0FRbYCmKgd6kVe03G0AQiWHA8+mknH0xNibQl+WeFUk9WODvShkKpi4cl3URRzVP6T4sBBCE0OTg==",
   "success": true,
   "projectFilePath": "D:\\Entrenamiento TechSoft\\Techsoft.Consultorio\\Techsoft.Consultorio.Presentacion.Consola\\Techsoft.Consultorio.Presentacion.Consola.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\nlog\\5.2.0\\nlog.5.2.0.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",

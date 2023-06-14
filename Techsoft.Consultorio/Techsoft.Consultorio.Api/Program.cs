@@ -1,3 +1,8 @@
+using NLog;
+using Techsoft.Consultorio.Api.Extensions;
+using static Techsoft.Consultorio.Infraestructura.Fabricas.GlobalConfig;
+using Techsoft.Consultorio.Infraestructura.Fabricas;
+
 namespace Techsoft.Consultorio.Api
 {
     public class Program
@@ -6,7 +11,19 @@ namespace Techsoft.Consultorio.Api
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Log Manager setup
+            LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "\\nlog.config"));
+
+            // Repository config
+            GlobalConfig.SetRepositoryOption(RepositoryOption.TextFile);
+
             // Add services to the container.
+
+            builder.Services.ConfigureCors();
+            builder.Services.ConfigureIISIntegration();
+            builder.Services.ConfigureLoggerService();
+            builder.Services.ConfigurePersonaService();
+            builder.Services.AddAutoMapper(typeof(Program));
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -26,7 +43,7 @@ namespace Techsoft.Consultorio.Api
 
             app.UseAuthorization();
 
-
+            // app.useSerilog();
             app.MapControllers();
 
             app.Run();

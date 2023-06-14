@@ -17,8 +17,9 @@ namespace Techsoft.Consultorio.Infraestructura.Repositorios
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    if(line == paciente.ToString())
+                    if(line.Contains(PacienteAStringQueryTxt(paciente.ToString())))
                     {
+                        reader.Close();
                         return paciente;
                     }
                 }
@@ -27,6 +28,11 @@ namespace Techsoft.Consultorio.Infraestructura.Repositorios
             return null;
         }
 
+        private string PacienteAStringQueryTxt(string paciente)
+        {
+            int indicePrimerEspacio = paciente.IndexOf(' ');
+            return paciente.Substring(indicePrimerEspacio + 1);
+        }
         public void Guardar(Paciente paciente)
         {
             // var writer = new StreamWriter(@"D:\Entrenamiento TechSoft\Techsoft.Consultorio\Datos\datos.txt", true);

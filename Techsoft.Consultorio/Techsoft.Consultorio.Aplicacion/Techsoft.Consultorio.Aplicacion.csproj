@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="NLog" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Techsoft.Consultorio.Dominio\Techsoft.Consultorio.Dominio.csproj" />
     <ProjectReference Include="..\Techsoft.Consultorio.Infraestructura\Techsoft.Consultorio.Infraestructura.csproj" />
   </ItemGroup>

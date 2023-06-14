@@ -1,2 +1,5 @@
 ea000248-9be1-41e2-ae2a-be3a0de9dfcc, Ejemplo, EjemlpoDireccion, 1234, 890234
 85d4937b-d4e4-48b2-a667-4f543de07c56, EjemploDoctor2, DireccionDoctor2, 4321, 3247832
+8843501e-5b00-4851-9747-fb82c573165b, Paciente1, DireccionPaciente1, 25, 1234567890
+69294b69-261b-433f-b1e6-2a75ce3f5fd2, Paciente2, DireccionPaciente2, 26, 1234567891
+200e96c6-22f3-43bb-808b-4710bfe23ec8, Paciente3, DireccionPaciente3, 27, 1234567892
