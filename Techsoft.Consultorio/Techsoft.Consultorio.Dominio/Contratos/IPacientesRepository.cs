@@ -11,5 +11,8 @@ namespace Techsoft.Consultorio.Dominio.Contratos
     {
         void Guardar(Paciente paciente);
         Paciente ConsultarPaciente(Paciente paciente);
+        Paciente ConsultarPacientePorId(string pacienteId);
+        Consulta ConsultarDisponibilidadPaciente(Paciente paciente, DateTime horario);
+        void AgregarConsulta(Consulta consulta);
     }
 }

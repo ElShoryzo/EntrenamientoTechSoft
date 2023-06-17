@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techsoft.Consultorio.Domini
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techsoft.Consultorio.Infraestructura", "Techsoft.Consultorio.Infraestructura\Techsoft.Consultorio.Infraestructura.csproj", "{B3B67920-3E30-4550-9F38-A98106BB57F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techsoft.Consultorio.Infraestructura.TextFile", "Techsoft.Consultorio.Infraestructura.TextFile\Techsoft.Consultorio.Infraestructura.TextFile.csproj", "{7569BCEE-B8A2-474C-A2C7-055AEE233EF1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Techsoft.Consultorio.Presentacion.WinFormNet48", "Techsoft.Consultorio.Presentacion.WinFormNet48\Techsoft.Consultorio.Presentacion.WinFormNet48.csproj", "{1747ADE0-5B4D-413A-B97F-461AF81F5831}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{E3D29C5F-7EB8-4CBD-8C85-E7F061EE6428}"
@@ -25,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techsoft.Consultorio.Aplica
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{0A6F9C4F-B801-4E18-85CA-914418948F24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Techsoft.Consultorio.Api", "Techsoft.Consultorio.Api\Techsoft.Consultorio.Api.csproj", "{5DF0C2EE-7AC4-4DC5-8E44-00555314A511}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techsoft.Consultorio.Api", "Techsoft.Consultorio.Api\Techsoft.Consultorio.Api.csproj", "{5DF0C2EE-7AC4-4DC5-8E44-00555314A511}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +47,6 @@ Global
 		{B3B67920-3E30-4550-9F38-A98106BB57F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3B67920-3E30-4550-9F38-A98106BB57F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3B67920-3E30-4550-9F38-A98106BB57F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7569BCEE-B8A2-474C-A2C7-055AEE233EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7569BCEE-B8A2-474C-A2C7-055AEE233EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7569BCEE-B8A2-474C-A2C7-055AEE233EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7569BCEE-B8A2-474C-A2C7-055AEE233EF1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1747ADE0-5B4D-413A-B97F-461AF81F5831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1747ADE0-5B4D-413A-B97F-461AF81F5831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1747ADE0-5B4D-413A-B97F-461AF81F5831}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -74,7 +68,6 @@ Global
 		{7ACB09E1-70CC-4CF5-BD0D-8DC112DC07B7} = {1CD90FAE-65CF-444E-B39F-8BD80DFC447F}
 		{D96985A1-26B5-4BED-87FA-D7BC48AECDCC} = {E3D29C5F-7EB8-4CBD-8C85-E7F061EE6428}
 		{B3B67920-3E30-4550-9F38-A98106BB57F2} = {BD496161-9F8D-47EF-BA4E-EEE4561CDEEB}
-		{7569BCEE-B8A2-474C-A2C7-055AEE233EF1} = {BD496161-9F8D-47EF-BA4E-EEE4561CDEEB}
 		{1747ADE0-5B4D-413A-B97F-461AF81F5831} = {1CD90FAE-65CF-444E-B39F-8BD80DFC447F}
 		{655539A9-E06E-4551-9650-D789CF1C3AEB} = {0A6F9C4F-B801-4E18-85CA-914418948F24}
 	EndGlobalSection

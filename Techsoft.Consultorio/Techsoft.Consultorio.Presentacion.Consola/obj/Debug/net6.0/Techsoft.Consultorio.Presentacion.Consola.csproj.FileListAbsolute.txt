@@ -90,14 +90,14 @@ D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\Techsoft.Consultorio.Aplicacion.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\Techsoft.Consultorio.Dominio.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.dll
-D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\Techsoft.Consultorio.Aplicacion.pdb
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\Techsoft.Consultorio.Dominio.pdb
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.pdb
-D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.pdb
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\obj\Debug\net6.0\Techsoft.Consultorio.Presentacion.Consola.csproj.CopyComplete
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\obj\Debug\net6.0\Techsoft.Consultorio.Presentacion.Consola.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\obj\Debug\net6.0\refint\Techsoft.Consultorio.Presentacion.Consola.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\obj\Debug\net6.0\Techsoft.Consultorio.Presentacion.Consola.pdb
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\obj\Debug\net6.0\Techsoft.Consultorio.Presentacion.Consola.genruntimeconfig.cache
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\obj\Debug\net6.0\ref\Techsoft.Consultorio.Presentacion.Consola.dll
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\NLog.dll
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion.Consola\bin\Debug\net6.0\Dawn.Guard.dll

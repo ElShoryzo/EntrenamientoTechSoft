@@ -8,16 +8,18 @@ using Techsoft.Consultorio.Dominio.Contratos;
 using Techsoft.Consultorio.Dominio.Entidades;
 using Techsoft.Consultorio.Infraestructura.Fabricas;
 using Techsoft.Consultorio.Infraestructura.Repositorios;
-using Techsoft.Consultorio.Presentacion.Repositorios;
 
 namespace Techsoft.Consultorio.Aplicacion.Servicios
 {
     public class PacientesService
     {
         private readonly IPacientesRepository _pacientesRepo;
-        public PacientesService()
+        private readonly IDoctoresRepository _doctoresRepo;
+        public PacientesService(IPacientesRepository pacientesRepository, IDoctoresRepository doctoresRepo)
         {
-            _pacientesRepo = PacientesFabrik.CrearRepository();
+            // _pacientesRepo = PacientesFabrik.CrearRepository();
+            _pacientesRepo = pacientesRepository;
+            _doctoresRepo = doctoresRepo;
         }
 
         public void Guardar(Paciente paciente)
@@ -35,6 +37,29 @@ namespace Techsoft.Consultorio.Aplicacion.Servicios
                 throw new InvalidOperationException("El paciente ya existe");
             }
 
+        }
+        public void AgendarConsulta (Consulta consulta)
+        {
+            // Validar Paciente
+            var paciente = _pacientesRepo.ConsultarPacientePorId(consulta.PacienteId) ?? throw new ArgumentException("El paciente no esta dado de alta");
+            // Validar Doctor
+            var doctor = _doctoresRepo.ConsultarDoctorPorId(consulta.DoctorId) ?? throw new ArgumentException("El doctor no esta dado de alta");
+            ConsultarDisponibilidad(paciente, doctor, consulta.FechaConsulta);
+            // Agregar Cita
+            _pacientesRepo.AgregarConsulta(new Consulta(paciente, doctor, consulta.FechaConsulta, consulta.Direccion));
+        }
+        private void ConsultarDisponibilidad(Paciente paciente, Doctor doctor, DateTime horario)
+        {
+            var disponibilidadPaciente = _pacientesRepo.ConsultarDisponibilidadPaciente(paciente, horario);
+            if (disponibilidadPaciente != null)
+            {
+                throw new InvalidOperationException("El paciente no está disponible.");
+            }
+            var disponibilidadDoctor = _doctoresRepo.ConsultarDisponibilidadDoctor(doctor, horario);
+            if (disponibilidadDoctor != null)
+            {
+                throw new InvalidOperationException("El doctor no está disponible.");
+            }
         }
     }
 }

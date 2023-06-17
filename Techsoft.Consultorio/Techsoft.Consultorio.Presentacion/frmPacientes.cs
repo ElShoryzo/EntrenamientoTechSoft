@@ -22,18 +22,17 @@ namespace Techsoft.Consultorio.Presentacion
         internal List<Paciente> pacientes;
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            var service = new PacientesService();
-            Paciente paciente = new()
-            {
-                Nombre = txtNombre.Text,
-                Direccion = txtDireccion.Text,
-                Edad = int.Parse(txtEdad.Text),
-                Telefono = txtTelefono.Text
-            };
+            // var service = new PacientesService();
+            Paciente paciente = new(
+                txtNombre.Text,
+                txtDireccion.Text,
+                txtTelefono.Text,
+                int.Parse(txtEdad.Text)
+            );
 
             try
             {
-                service.Guardar(paciente);
+                //service.Guardar(paciente);
                 MessageBox.Show($"Doctor {paciente} guardado");
             }
             catch (Exception ex)

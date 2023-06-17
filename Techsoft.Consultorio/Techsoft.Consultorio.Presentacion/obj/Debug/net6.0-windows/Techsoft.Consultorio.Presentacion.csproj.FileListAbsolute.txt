@@ -89,8 +89,8 @@ D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\Techsoft.Consultorio.Aplicacion.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\Techsoft.Consultorio.Dominio.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\Techsoft.Consultorio.Infraestructura.dll
-D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\Techsoft.Consultorio.Infraestructura.TextFile.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\Techsoft.Consultorio.Aplicacion.pdb
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\Techsoft.Consultorio.Dominio.pdb
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\Techsoft.Consultorio.Infraestructura.pdb
-D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\Techsoft.Consultorio.Infraestructura.TextFile.pdb
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\NLog.dll
+D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Presentacion\bin\Debug\net6.0-windows\Dawn.Guard.dll

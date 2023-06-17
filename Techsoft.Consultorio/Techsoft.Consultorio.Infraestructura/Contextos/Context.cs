@@ -8,11 +8,13 @@ using Techsoft.Consultorio.Dominio.Entidades;
 
 namespace Techsoft.Consultorio.Infraestructura.Contextos
 {
-    internal class Context : DbContext
+    public class Context : DbContext
     {
         public Context(DbContextOptions options) : base(options){}
 
         public DbSet<Paciente> Pacientes { get; set; }
         public DbSet<Doctor> Doctores { get; set; }
+        // public DbSet<User> Users { get; set; }
+        public DbSet<Consulta> Consultas { get; set; }
     }
 }

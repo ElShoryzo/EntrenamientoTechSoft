@@ -1,11 +1,43 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "Dawn.Guard/1.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dawn.Guard/1.12.0": {
+      "sha512": "niOoFTH4DO3/c0rBBHgCeWUCzSpgYZLI4+TxiwPyYP0bxZrxSokhyztx5QdsvHfB6Y3ovhK6vYwZr2qD8JdiuQ==",
+      "type": "package",
+      "path": "dawn.guard/1.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dawn.guard.1.12.0.nupkg.sha512",
+        "dawn.guard.nuspec",
+        "lib/netstandard1.0/Dawn.Guard.dll",
+        "lib/netstandard1.0/Dawn.Guard.xml",
+        "lib/netstandard2.0/Dawn.Guard.dll",
+        "lib/netstandard2.0/Dawn.Guard.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "Dawn.Guard >= 1.12.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\": {},
@@ -50,6 +82,12 @@
     "frameworks": {
       "netstandard2.1": {
         "targetAlias": "netstandard2.1",
+        "dependencies": {
+          "Dawn.Guard": {
+            "target": "Package",
+            "version": "[1.12.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -11,5 +11,8 @@ namespace Techsoft.Consultorio.Dominio.Contratos
     {
         void Guardar(Doctor doctor);
         Doctor ConsultarCedula(string cedula);
+        Doctor ConsultarDoctorPorId(string doctorId);
+        Consulta ConsultarDisponibilidadDoctor(Doctor doctor, DateTime horario);
+        Task<Doctor> GetById(string id);
     }
 }

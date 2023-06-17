@@ -8,7 +8,7 @@ using Techsoft.Consultorio.Dominio.Entidades;
 
 namespace Techsoft.Consultorio.Infraestructura.Repositorios
 {
-    public class DoctoresRepositorioTxt: IDoctoresRepository
+    public class DoctoresRepositorioTxt: // IDoctoresRepository
     {
         public Doctor? ConsultarCedula(string cedula)
         {
@@ -33,13 +33,12 @@ namespace Techsoft.Consultorio.Infraestructura.Repositorios
 
         public Doctor RegistroTxtADoctor(string[] parts)
         {
-            Doctor doctor = new()
-            {
-                Nombre = parts[1].Trim(),
-                Direccion = parts[2].Trim(),
-                Cedula = parts[3].Trim(),
-                Telefono = parts[4].Trim(),
-            };
+            Doctor doctor = new (
+                parts[1].Trim(),
+                parts[2].Trim(),
+                parts[4].Trim(),
+                parts[3].Trim()
+            );
             return doctor;
         }
 
@@ -60,6 +59,25 @@ namespace Techsoft.Consultorio.Infraestructura.Repositorios
                 writer.WriteLine(doctor);
                 writer.Close();
             }
+        }
+        public async Task<Doctor> GetById(string id)
+        {
+            using (var reader = new StreamReader(@"D:\Entrenamiento TechSoft\Techsoft.Consultorio\Datos\datos.txt", true))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    string buscarCedula = parts[3].Trim();
+                    if (buscarCedula == cedula)
+                    {
+                        reader.Close();
+                        return await RegistroTxtADoctor(parts);
+                    }
+                }
+                reader.Close();
+            }
+            return null;
         }
     }
 }

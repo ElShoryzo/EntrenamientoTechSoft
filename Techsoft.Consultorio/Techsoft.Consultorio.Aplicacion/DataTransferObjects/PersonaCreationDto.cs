@@ -9,6 +9,7 @@ namespace Techsoft.Consultorio.Aplicacion.DataTransferObjects
 {
     public abstract class PersonaCreationDto
     {
+        // TODO: EN DTO NO SE HEREDA
         [Required(ErrorMessage = "El nombre es requerido")]
         public string Nombre { get; set; }
 

@@ -12,11 +12,13 @@ namespace Techsoft.Consultorio.Api.Controllers
     [ApiController]
     public class PacienteController : ControllerBase
     {
-        private readonly ILoggerManager _logger;
+        // NLog
+        // private readonly ILoggerManager _logger;
+        private readonly ILogger<PacienteController> _logger;
         private readonly IMapper _mapper;
         private readonly PacientesService _service;
 
-        public PacienteController(ILoggerManager logger, IMapper mapper, PacientesService service)
+        public PacienteController(ILogger<PacienteController> logger, IMapper mapper, PacientesService service)
         {
             _logger = logger;
             _mapper = mapper;
@@ -52,6 +54,44 @@ namespace Techsoft.Consultorio.Api.Controllers
             catch (Exception ex)
             {
                 _logger.LogError($"Error al crear paciente: {ex}");
+                return StatusCode(500, "Internal Server Error.");
+            }
+        }
+
+        [HttpPost("CrearConsulta")]
+        public IActionResult CreateConsulta([FromBody] ConsultaCreationDto consulta)
+        {
+            try
+            {
+                if (consulta == null)
+                {
+                    _logger.LogError("La consulta enviada del cliente es nula.");
+                    return BadRequest("La consulta es nula");
+                }
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogError("Los datos enviados de la consulta son inválidos");
+                    return BadRequest("Modelo inválido");
+                }
+                var consultaEntidad = _mapper.Map<Consulta>(consulta);
+                _service.AgendarConsulta(consultaEntidad);
+                var consultaCreada = _mapper.Map<ConsultaDto>(consultaEntidad);
+
+                return Ok(consultaCreada);
+            }
+            catch (InvalidOperationException iex)
+            {
+                _logger.LogError($"Error al crear consulta: {iex}");
+                return BadRequest(iex.Message);
+            }
+            catch (ArgumentException aex)
+            {
+                _logger.LogError($"Error al crear consulta: {aex}");
+                return BadRequest(aex.Message);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error al crear consulta: {ex}");
                 return StatusCode(500, "Internal Server Error.");
             }
         }

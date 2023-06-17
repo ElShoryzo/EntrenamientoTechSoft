@@ -22,10 +22,22 @@ namespace Techsoft.Consultorio.Infraestructura.Repositorios
         {
             return _contexto.Doctores.FirstOrDefault(p=>p.Cedula == cedula);
         }
+        public Doctor ConsultarDoctorPorId(string doctorId)
+        {
+            return _contexto.Doctores.FirstOrDefault(p => p.Id == doctorId);
+        }
+        public Consulta ConsultarDisponibilidadDoctor(Doctor doctor, DateTime horario)
+        {
+            return _contexto.Consultas.FirstOrDefault(p => p.DoctorId == doctor.Id && p.FechaConsulta == horario);
+        }
         public void Guardar(Doctor doctor)
         {
             _contexto.Doctores.Add(doctor);
             _contexto.SaveChanges();
+        }
+        public async Task<Doctor> GetById(string id)
+        {
+            return await _contexto.Doctores.Where(e => e.Id == id).FirstOrDefaultAsync();
         }
     }
 }

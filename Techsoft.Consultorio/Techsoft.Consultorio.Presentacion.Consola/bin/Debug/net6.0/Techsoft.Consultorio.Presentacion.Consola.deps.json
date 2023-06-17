@@ -48,6 +48,14 @@
           }
         }
       },
+      "Dawn.Guard/1.12.0": {
+        "runtime": {
+          "lib/netstandard2.0/Dawn.Guard.dll": {
+            "assemblyVersion": "1.12.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -435,6 +443,14 @@
             "assetType": "runtime",
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "NLog/5.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.2.0.1813"
           }
         }
       },
@@ -836,6 +852,7 @@
       },
       "Techsoft.Consultorio.Aplicacion/1.0.0": {
         "dependencies": {
+          "NLog": "5.2.0",
           "Techsoft.Consultorio.Dominio": "1.0.0",
           "Techsoft.Consultorio.Infraestructura": "1.0.0"
         },
@@ -844,6 +861,9 @@
         }
       },
       "Techsoft.Consultorio.Dominio/1.0.0": {
+        "dependencies": {
+          "Dawn.Guard": "1.12.0"
+        },
         "runtime": {
           "Techsoft.Consultorio.Dominio.dll": {}
         }
@@ -853,19 +873,18 @@
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.5",
-          "Techsoft.Consultorio.Dominio": "1.0.0",
-          "Techsoft.Consultorio.Infraestructura.TextFile": "1.0.0"
+          "Techsoft.Consultorio.Dominio": "1.0.0"
         },
         "runtime": {
           "Techsoft.Consultorio.Infraestructura.dll": {}
         }
       },
-      "Techsoft.Consultorio.Infraestructura.TextFile/1.0.0": {
-        "dependencies": {
-          "Techsoft.Consultorio.Dominio": "1.0.0"
-        },
+      "Techsoft.Consultorio.Infraestructura.TextFile/1.0.0.0": {
         "runtime": {
-          "Techsoft.Consultorio.Infraestructura.TextFile.dll": {}
+          "Techsoft.Consultorio.Infraestructura.TextFile.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -889,6 +908,13 @@
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
+    },
+    "Dawn.Guard/1.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-niOoFTH4DO3/c0rBBHgCeWUCzSpgYZLI4+TxiwPyYP0bxZrxSokhyztx5QdsvHfB6Y3ovhK6vYwZr2qD8JdiuQ==",
+      "path": "dawn.guard/1.12.0",
+      "hashPath": "dawn.guard.1.12.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1134,6 +1160,13 @@
       "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
       "path": "microsoft.win32.systemevents/5.0.0",
       "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "NLog/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uYBgseY0m/9lQUbZYGsQsTBFOWrfs3iaekzzYMH6vFmpoOAvV8/bp1XxG/suZkwB5h8nAiTJAp7VENWRDKtKPA==",
+      "path": "nlog/5.2.0",
+      "hashPath": "nlog.5.2.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.4": {
       "type": "package",
@@ -1381,8 +1414,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Techsoft.Consultorio.Infraestructura.TextFile/1.0.0": {
-      "type": "project",
+    "Techsoft.Consultorio.Infraestructura.TextFile/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

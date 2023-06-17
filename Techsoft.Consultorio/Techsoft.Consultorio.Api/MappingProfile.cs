@@ -10,8 +10,10 @@ namespace Techsoft.Consultorio.Api
         {
             CreateMap<Doctor, DoctorDto>();
             CreateMap<Paciente, PacienteDto>();
+            CreateMap<Consulta, ConsultaDto>();
             CreateMap<DoctorCreationDto, Doctor>();
             CreateMap<PacienteCreationDto, Paciente>();
+            CreateMap<ConsultaCreationDto, Consulta>();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Techsoft.Consultorio.Aplicacion.DataTransferObjects;
@@ -12,11 +13,13 @@ namespace Techsoft.Consultorio.Api.Controllers
     [ApiController]
     public class DoctorController : ControllerBase
     {
-        private readonly ILoggerManager _logger;
+        // NLog 
+        // private readonly ILoggerManager _logger;
+        private readonly ILogger<DoctorController> _logger;
         private readonly IMapper _mapper;
         private readonly DoctoresService _service;
 
-        public DoctorController(ILoggerManager logger, IMapper mapper, DoctoresService service)
+        public DoctorController(ILogger<DoctorController> logger, IMapper mapper, DoctoresService service)
         {
             _logger = logger;
             _mapper = mapper;
@@ -24,7 +27,8 @@ namespace Techsoft.Consultorio.Api.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateDoctor([FromBody] DoctorCreationDto doctor) 
+        // [Authorize]
+        public IActionResult CreateDoctor([FromBody] DoctorCreationDto doctor)
         {
             try
             {
@@ -44,10 +48,15 @@ namespace Techsoft.Consultorio.Api.Controllers
 
                 return Ok(doctorCreado);
             }
-            catch(InvalidOperationException iex)
+            catch (InvalidOperationException iex)
             {
                 _logger.LogError($"Error al crear doctor: {iex}");
                 return BadRequest(iex.Message);
+            }
+            catch (ArgumentException aex)
+            {
+                _logger.LogError($"Error al crear doctor: {aex}");
+                return BadRequest(aex.Message);
             }
             catch (Exception ex)
             {

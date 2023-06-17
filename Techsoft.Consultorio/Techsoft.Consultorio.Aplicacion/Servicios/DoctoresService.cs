@@ -14,12 +14,12 @@ namespace Techsoft.Consultorio.Aplicacion.Servicios
     public class DoctoresService
     {
         private readonly IDoctoresRepository _doctoresRepo;
-        public DoctoresService()
+        public DoctoresService(IDoctoresRepository doctoresRepo)
         {
             // DbContextOptionsBuilder options = new DbContextOptionsBuilder();
             // options.UseSqlServer("server=.;Initial Catalog=BDEntrenamiento; Trusted_Connection=true; Encrypt=false");
             // IDoctoresRepository repo = new DoctoresRepositorio(options.Options);
-            _doctoresRepo = DoctoresFabrik.CrearRepository();
+            _doctoresRepo = doctoresRepo;
         }
 
         public void Guardar(Doctor doctor)

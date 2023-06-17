@@ -27,17 +27,16 @@ namespace Techsoft.Consultorio.Presentacion
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            var service = new DoctoresService();
-            Doctor doctor = new()
-            {
-                Nombre = txtNombre.Text,
-                Direccion = txtDireccion.Text,
-                Cedula = txtCedula.Text,
-                Telefono = txtTelefono.Text
-            };
+            // var service = new DoctoresService();
+            Doctor doctor = new(
+                txtNombre.Text,
+                txtDireccion.Text,
+                txtCedula.Text,
+                txtTelefono.Text
+            );
             try
             {
-                service.Guardar(doctor);
+                // service.Guardar(doctor);
                 MessageBox.Show($"Doctor {doctor} guardado");
             }
             catch (Exception ex)

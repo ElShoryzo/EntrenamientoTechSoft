@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PtXk2PeYCs2CMp4r/h3Sm29iw0+Ab/Qo3u6Zg93vfcV9R35Jio5eOaMJUAwF8rjXrtj1mGUFY/XMOWJ/vNLIdQ==",
+  "dgSpecHash": "t4LyVlMEiYI/ASodHVLS9cd+g69WDbcK9KLgp1Iy+XRO4ht3sNWWo9R6f6ZlrDE8IXYbfiQoxZ/thD5k229Puw==",
   "success": true,
   "projectFilePath": "D:\\Entrenamiento TechSoft\\Techsoft.Consultorio\\Techsoft.Consultorio.Aplicacion\\Techsoft.Consultorio.Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\dawn.guard\\1.12.0\\dawn.guard.1.12.0.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

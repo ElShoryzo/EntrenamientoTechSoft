@@ -8,9 +8,7 @@ D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestruct
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.pdb
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura\bin\Debug\net6.0\Techsoft.Consultorio.Dominio.dll
-D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura\bin\Debug\net6.0\Techsoft.Consultorio.Dominio.pdb
-D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura\bin\Debug\net6.0\Techsoft.Consultorio.Infraestructura.TextFile.pdb
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.csproj.CopyComplete
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura\obj\Debug\net6.0\Techsoft.Consultorio.Infraestructura.dll
 D:\Entrenamiento TechSoft\Techsoft.Consultorio\Techsoft.Consultorio.Infraestructura\obj\Debug\net6.0\refint\Techsoft.Consultorio.Infraestructura.dll

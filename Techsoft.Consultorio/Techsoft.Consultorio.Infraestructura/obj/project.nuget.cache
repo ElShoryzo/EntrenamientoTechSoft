@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oOyBveYmW6sHE0VFEXy5Nt3hB73XALt9voaCsDD5TCuKnlXob5UbkM78d1fScychuo1OM/vrnmT88v6oKXyPxA==",
+  "dgSpecHash": "ee7qvtLWAlqRys0MgGisKG2q/LNFI2ihq9yh/DhH7E0yZUVxnJtb7Zbs5vi0pWIpcdUSiUAsg/IkgBd8/+Xrpw==",
   "success": true,
   "projectFilePath": "D:\\Entrenamiento TechSoft\\Techsoft.Consultorio\\Techsoft.Consultorio.Infraestructura\\Techsoft.Consultorio.Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\dawn.guard\\1.12.0\\dawn.guard.1.12.0.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Kiyoshi M Shimizu A\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

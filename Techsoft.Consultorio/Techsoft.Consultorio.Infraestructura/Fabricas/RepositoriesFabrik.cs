@@ -7,7 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Techsoft.Consultorio.Dominio.Contratos;
 using Techsoft.Consultorio.Infraestructura.Repositorios;
-using Techsoft.Consultorio.Presentacion.Repositorios;
 using static Techsoft.Consultorio.Infraestructura.Fabricas.GlobalConfig;
 
 namespace Techsoft.Consultorio.Infraestructura.Fabricas
@@ -27,7 +26,7 @@ namespace Techsoft.Consultorio.Infraestructura.Fabricas
         public static DbContextOptions SqlOptions()
         {
             var options = new DbContextOptionsBuilder();
-            options.UseSqlServer("server=.;Initial Catalog=BDEntrenamiento; Trusted_Connection=true; Encrypt=false");
+            options.UseSqlServer("server=.;Initial Catalog=BDEntrenamiento3; Trusted_Connection=true; Encrypt=false");
             return options.Options;
         }
         public static DbContextOptions SqliteOptions()
@@ -55,10 +54,8 @@ namespace Techsoft.Consultorio.Infraestructura.Fabricas
             {
                 case RepositoryOption.SqlServer:
                     return new PacientesRepositorio(GlobalConfig.SqlOptions());
-                case RepositoryOption.Sqlite:
-                    return new PacientesRepositorio(GlobalConfig.SqliteOptions());
                 default:
-                    return new PacientesRepositorioTxt();
+                    return new PacientesRepositorio(GlobalConfig.SqliteOptions());
             }
         }
     }
@@ -70,10 +67,8 @@ namespace Techsoft.Consultorio.Infraestructura.Fabricas
             {
                 case RepositoryOption.SqlServer:
                     return new DoctoresRepositorio(GlobalConfig.SqlOptions());
-                case RepositoryOption.Sqlite:
-                    return new DoctoresRepositorio(GlobalConfig.SqliteOptions());
                 default:
-                    return new DoctoresRepositorioTxt();
+                    return new DoctoresRepositorio(GlobalConfig.SqliteOptions());
             }
         }
     }
